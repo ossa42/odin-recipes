@@ -1,1 +1,1 @@
-A simple recipe website that uses HTML.
+A simple recipe website that uses HTML and CSS.
