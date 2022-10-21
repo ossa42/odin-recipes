@@ -1,20 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Ossa42's Favorite Recipes</title>
 </head>
-<body>
-    <h1>Odin Recipes</h1> 
-    <ul>
-        <li><a href="./recipes/kebab.html">Chicken Kebab</a> </li>
-        <li><a href="./recipes/baklava.html">Baklava</a></li>
-        <li><a href="./recipes/blackforestcake.html">Black Forest Cake</a></li>
-    </ul>
-    
+<body> 
+    <h1>My Favorite Recipes</h1> 
 
-      
+    <div class="parent">
+        <div>
+            <a href="./recipes/kebab.html">
+                <img src="./images/homeimage.jpeg" alt="kebab image">
+            </a>
+            
+        </div>
+        <div> 
+            <a href="./recipes/baklava.html" >
+                <img src="./images/homebaklava.jpeg" alt="baklava image">
+            </a>
+        </div> 
+        <div>
+            <a href="./recipes/blackforestcake.html">
+                <img src="./images/maincake.jpeg" alt="cake image">
+            </a>
+        </div>
+    </div>
+    <h2>Top 3 Recipes</h2>
+    <ul class="recipes">
+        <li id="k"><a href="./recipes/kebab.html">Chicken Kebab</a> </li>
+        <li id="b"><a href="./recipes/baklava.html">Baklava</a></li>
+        <li id="c"><a href="./recipes/blackforestcake.html">Black Forest Cake</a></li>
+    </ul>
 </body>
 </html>
